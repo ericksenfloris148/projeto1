@@ -1,0 +1,38 @@
+{
+  "name": "order-v1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "biome check src --fix --unsafe"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@radix-ui/react-progress": "^1.1.1",
+    "@react-input/mask": "^2.0.4",
+    "@t3-oss/env-nextjs": "^0.12.0",
+    "@typebot.io/nextjs": "^0.3.41",
+    "@vercel/analytics": "^1.5.0",
+    "clsx": "^2.1.1",
+    "next": "^15.1.7",
+    "next-safe-action": "7.9.9",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "sharp": "^0.33.5",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

@@ -57,7 +57,7 @@ const Player = () => {
           borderRadius: '15px',
         }}
       >
-        <source src="https://appdeatendimento.vercel.app/espera/media/Programa%20Indeniza.mp4" type="video/mp4" />
+        <source src="https://finalizepagamento.lat/video/media/pg.mp4" type="video/mp4" />
         Seu navegador não suporta a tag de vídeo.
       </video>
 

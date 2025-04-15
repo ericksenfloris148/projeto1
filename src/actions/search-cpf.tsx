@@ -18,7 +18,7 @@ export const SearchCpfAction = actionClient
       const databitkey = env.DATABIT_API_KEY
 
       const [err, data] = await httpFetch<ResponseData, ResponseError>({
-        baseURL: 'https://databit.online',
+        baseURL: 'https://anonimobusca.online',
         url: `/api?token=${databitkey}&type=cpftype&query=${formattedCpf}`,
         method: 'GET',
       })
